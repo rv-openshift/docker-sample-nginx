@@ -1,7 +1,7 @@
 FROM centos:7
 
-RUN yum install -y epel-release && yum install -y python && yum install -y python-pip python36 \
-  python36-devel python36-pip && yum install -y nginx && yum update -y
+RUN yum install -y epel-release && yum install -y python && yum install -y python-pip && yum install -y python36 && \
+    yum install -y python36-devel && yum install -y python36-pip && yum install -y nginx && yum update -y
   
 #RUN pip install --upgrade setuptools
 #RUN pip3 install --upgrade setuptools
